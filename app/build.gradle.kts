@@ -40,7 +40,8 @@ android {
 }
 
 dependencies {
-
+    implementation( libs.androidx.glance.appwidget )
+    implementation( libs.androidx.glance.material3 )
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
